@@ -1,0 +1,88 @@
+@charset "ISO-8859-1";
+
+@font-face {
+            font-family: myFirstFont;
+            src: url(fonts/JosefinSansSemibold-p7Z0v.ttf);
+        }
+
+        * {
+            font-family: myFirstFont;
+
+        }
+
+        .Developer{
+            color: transparent;
+            margin-top: 300px;
+            margin-left: 250px;
+            transition-duration: 0.4s;
+            height: 300px;
+            width: 300px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            border-radius: 12px;
+            background-image: url(https://cdn.vectorstock.com/i/preview-1x/22/50/developer-line-icon-outline-vector-30762250.jpg);
+            background-size: 100% 100%;
+           
+            
+        }
+        .Developer:hover {
+            color: azure;
+            text-size-adjust: 100px;
+            background-color: #82AAE3;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+            background-image: none;
+            color: white;
+            font-size: large;
+        }
+
+        .HR {
+            color: transparent;
+            margin-top: 300px;
+            margin-left: 250px;
+            transition-duration: 0.4s;
+            height: 300px;
+            width: 300px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            border-radius: 12px;
+            background-image: url(https://static.vecteezy.com/system/resources/previews/009/170/424/original/creative-design-icon-of-hr-manager-vector.jpg);
+            background-size: 100% 100%;
+           
+            
+        }
+        .HR:hover {
+            color: azure;
+            text-size-adjust: 100px;
+            background-color: #82AAE3;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+            background-image: none;
+            color: white;
+            font-size: large;
+        }
+
+        .Manager {
+            color: transparent;
+            margin-top: 300px;
+            margin-left: 250px;
+            transition-duration: 0.4s;
+            height: 300px;
+            width: 300px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            border-radius: 12px;
+            background-image: url(https://cdn-icons-png.flaticon.com/512/3065/3065721.png);
+            background-size: 100% 100%;
+           
+            
+        }
+        .Manager:hover {
+            color: azure;
+            text-size-adjust: 100px;
+            background-color: #82AAE3;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+            background-image: none;
+            color: white;
+            font-size: large;
+        }
+        
+
+        body {
+            background-color: #C0DEFF;
+        }
