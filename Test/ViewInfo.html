@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        @font-face {
+            font-family: myFirstFont;
+            src: url(fonts/JosefinSansSemibold-p7Z0v.ttf);
+        }
+
+        * {
+            font-family: myFirstFont;
+
+        }
+
+        h1 {
+            
+            text-align: center;
+        }
+
+        /* form {
+            margin-top: 30px;
+            margin-bottom: 100px;
+            margin-right: 150px;
+            margin-left: 120px;
+            border: 0cm;
+        } */
+
+        body {
+            background-color: #C0DEFF;
+        }
+
+        input {
+            border-top-style: hidden;
+            border-right-style: hidden;
+            border-left-style: hidden;
+            border-bottom-style: hidden;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .edit {
+            transition-duration: 0.4s;
+            height: 30px;
+            width: 100px;
+            border-radius: 12px;
+            border: 2px solid #0e3721;
+            box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+        }
+
+        .edit:hover {
+            background-color: black;
+            color: white;
+
+        }
+
+        .div2 {
+            /* margin-top: 200px;
+            margin-left: 500px; */
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content:center ;
+
+        }
+
+        .formdiv {
+            background: #fff;
+            box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+            border-radius: 12px;
+            width: 550px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 15px;
+            border: 2px solid #0e3721;
+            
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+        img{
+            display: block;
+            margin-inline: auto;
+        }
+        .editbutton{
+            padding-left:40%;
+            
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="div2">
+        <form>
+            <div class="formdiv">
+            <h1>Profile</h1>
+            <img src="https://cdn-icons-png.flaticon.com/512/3065/3065721.png" width="100px" height="100px"><br>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br><br>
+
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br><br>
+
+            <label for="eid">Employee ID:</label>
+            <input type="text" id="eid" name="eid"><br><br><br>
+
+            <label for="eid">Date of Birth:</label>
+            <input type="text" id="DOB" name="DOB"><br><br><br>
+
+            <label for="eid">Date of Joining:</label>
+            <input type="text" id="DOJ" name="DOJ"><br><br><br>
+
+            <label for="eid">Email ID:</label>
+            <input type="text" id="email" name="email"><br><br><br>
+
+            <label for="eid">Address:</label>
+            <input type="text" id="address" name="address"><br><br><br>
+
+            </div>
+            <br><br>
+            <div class="editbutton">
+                <label for="edit"></label>
+                <button class="edit">Edit Profile</button>
+            </div>
+
+        </form>
+        
+            
+
+    </div>
+
+
+</body>
+
+</html>
