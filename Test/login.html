@@ -1,0 +1,28 @@
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-box">
+        <h1>Login Here</h1>
+        <form method="post" action="loginserv">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" class="form-control" id="username" name="username">
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" class="form-control" id="password" name="password">
+            </div>
+            <div class="form-group">
+                <label for="user-type">User Type:</label>
+                <select class="form-control" id="user-type" name="user-type">
+                <option value="developer">Developer</option>
+                <option value="manager">Manager</option>
+                <option value="hr">HR</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
